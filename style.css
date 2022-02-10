@@ -1,0 +1,78 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+  background-image: url(synchronic.png);
+  background-size: cover;
+}
+
+@font-face {
+  font-family: YesevaOne-Regular;
+  src: url(YesevaOne-Regular.ttf);
+}
+
+/* body {
+  background-color: #D3D3D3;
+  color: #fff;
+} */
+
+
+ul {
+  list-style-type: none;
+  background-color: #4F0B0B;
+  margin: 0;
+  padding: 20;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  /* border-right: 1px solid #bbb; */
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 35px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #111;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  height: 300px;
+  width: 800px;
+  line-height: 400px;
+  left: 310px;
+}
+
+#centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  line-height: 150px;
+  height: 150px;
+  vertical-align: center;
+  color: white;
+}
+
+.images {
+  text-align: center;
+}
+
+}
